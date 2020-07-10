@@ -17,8 +17,8 @@
 require 'json'
 
 # serviceMap, extracted from
-# https://awsiamconsole.s3.amazonaws.com/iam/assets/js/bundles/policies.js,
-# found within http://awspolicygen.s3.amazonaws.com/policygen.html
+# https://awspolicygen.s3.amazonaws.com/js/policies.js,
+# found within https://awspolicygen.s3.amazonaws.com/policygen.html
 data = JSON.parse(IO.read "var/app.json")
 
 actions = []
